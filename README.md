@@ -1,6 +1,4 @@
 # catKeylogger
-For testing purposes:
-
 An exe file must first be created using pyinstaller --onefile --noconsole cat.py
 
 After the cat.exe application is ran for the first time cat.exe will copy itself to the user's startup folder
