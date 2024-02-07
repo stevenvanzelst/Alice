@@ -16,7 +16,11 @@ The developer is not responsible for damage caused through misuse of this progra
 
 
 To do:
+
 Function to copy cat.exe to any flash drive inserted into the computer
+
 Reduce usage
+
 Anti-virus evasion
+
 Encrypt text before sending emails
