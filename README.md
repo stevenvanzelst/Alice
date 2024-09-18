@@ -1,9 +1,8 @@
 # Alice
 
-## Overview
+# Overview
 
-This educational software demonstrates how to create a simple keylogger and browser history tracker in Python. It captures keystrokes, logs browser history, and sends the collected data via email. The code is designed for educational purposes only, to help you understand the concepts of file handling, email communication, and the use of Python libraries.
-
+This Python-based keylogger tool captures keystrokes and browser history, providing an educational demonstration of how to log user interactions on a computer. The keylogger saves captured keystrokes to a text file and retrieves browser history, sending both as email attachments at regular intervals. Designed for learning purposes, this tool illustrates file handling, email communication, and the use of Python libraries. **Please use responsibly and ethically, ensuring compliance with privacy laws and regulations.**
 **Important:** This software should only be used in a legal and ethical manner, such as on your own devices or with explicit permission from users.
 
 ## Features
