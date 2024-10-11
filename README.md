@@ -45,6 +45,7 @@ pip install browser-history pynput
    ```bash
    python alice.py
    ```
+   You must edit the unobfuscated code to include your email address and associated app password to actually run.
 
 3. **Data Collection**:
    - The script will run for a specified duration (2 minutes) before entering a loop where it collects browser history and keystrokes.
@@ -59,6 +60,7 @@ pip install browser-history pynput
 - **Ethical Use**: Ensure you comply with local laws and regulations regarding privacy and data collection.
 - **Testing**: The script is intended for educational purposes. Test it only in safe environments, like your own computer.
 - **Security**: Consider the security implications of storing and transmitting sensitive data like keystrokes.
+- 
 
 ## Disclaimer
 
